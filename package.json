@@ -1,0 +1,24 @@
+{
+  "name": "bart-info",
+  "version": "1.0.0",
+  "description": "BART Information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Melody Reebs",
+    "email": "reebsm@oregonstate.edu",
+    "url": "http://melodyreebs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobilemelody/bart-info.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.2",
+    "express-handlebars": "^2.0.1"
+  }
+}
