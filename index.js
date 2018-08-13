@@ -5,9 +5,11 @@ const handlebars = require('express-handlebars').create({defaultLayout:'main'});
 const app = express();
 const apiKey = "ZMBH-PXUN-9VLT-DWE9";
 
+const PORT = process.env.PORT || 3000;
+
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-app.set('port', 3000);
+app.set('port', PORT);
 
 app.use(express.static('public'));
 
